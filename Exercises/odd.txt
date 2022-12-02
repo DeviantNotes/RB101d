@@ -1,0 +1,4 @@
+define is_odd?(integer)
+  -assume is valid integer
+  -check if integer is divisible by 2
+  -
