@@ -1,30 +1,3 @@
-# INFORMATION NEEDED:
-# -loan amount
-# -APR
-# -loan duration
-
-# CALCULATE FROM INFORMATION:
-# -monthly interest rate
-# -loan duration in months
-# -monthly payment
-
-# FORMULAS:
-# -m = p * (j / (1 - (1 + j)**(-n)))
-# -m = monthly payment
-# -p = loan amount
-# -j = monthly interest rate
-# -n = loan duration in months
-# - (replace single-letter variables)
-
-# -define METHOD that takes INFORMATION NEEDED
-#    and computes CALCULATE FROM INFORMATION
-# -welcome/prompt user for INFORMATION NEEDED
-#   -put messages in YAML
-#   -convert input into appropriate format to plug in to METHOD
-# -output CALCULATE FROM INFORMATION with appropriate labeling
-
-require 'pry'
-
 require 'yaml'
 MESSAGES = YAML.load_file('mortgage_messages.yml')
 
