@@ -1,3 +1,0 @@
-Define method repeat(string, num)
-  -loop num times
-    -print string
