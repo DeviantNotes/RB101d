@@ -115,6 +115,8 @@ loop do
     end
 
     display_score(player_score, computer_score, ties)
+    sleep(1.5)
+    system('clear')
   end
 
   prompt(MESSAGES['again?'])
